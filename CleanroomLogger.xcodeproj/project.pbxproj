@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37D88D7B1B3CEDF900AA7D73 /* LogColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D88D7A1B3CEDF900AA7D73 /* LogColor.swift */; };
 		3B1DEE8E1AF87A5600D9A0BF /* DefaultLogConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DEE8D1AF87A5600D9A0BF /* DefaultLogConfiguration.swift */; };
 		3B4596B21AE195900049A743 /* CleanroomLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4596A61AE195900049A743 /* CleanroomLogger.framework */; };
 		3B4596D81AE196E50049A743 /* ASLLogRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4596CD1AE196E50049A743 /* ASLLogRecorder.swift */; };
@@ -59,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37D88D7A1B3CEDF900AA7D73 /* LogColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogColor.swift; sourceTree = "<group>"; };
 		3B1DEE8D1AF87A5600D9A0BF /* DefaultLogConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLogConfiguration.swift; sourceTree = "<group>"; };
 		3B4596A61AE195900049A743 /* CleanroomLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CleanroomLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4596B11AE195900049A743 /* CleanroomLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanroomLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,6 +175,7 @@
 				3B4596CE1AE196E50049A743 /* DefaultLogFormatter.swift */,
 				3B93F9131B0CDD0300F3392A /* FileLogRecorder.swift */,
 				3B93F9141B0CDD0300F3392A /* LogRecorderBase.swift */,
+				37D88D7A1B3CEDF900AA7D73 /* LogColor.swift */,
 			);
 			name = Implementation;
 			path = Code/Implementation;
@@ -321,6 +324,7 @@
 				3B4596DA1AE196E50049A743 /* Log.swift in Sources */,
 				3B93F9161B0CDD0300F3392A /* FileLogRecorder.swift in Sources */,
 				3B4596E01AE196E50049A743 /* LogReceptacle.swift in Sources */,
+				37D88D7B1B3CEDF900AA7D73 /* LogColor.swift in Sources */,
 				3B4596DE1AE196E50049A743 /* LogFilter.swift in Sources */,
 				3B4596DD1AE196E50049A743 /* LogEntry.swift in Sources */,
 			);
