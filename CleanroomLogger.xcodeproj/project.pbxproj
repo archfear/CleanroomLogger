@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		375B7AE31BAB9714000DA0EB /* LogColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B7AE21BAB9714000DA0EB /* LogColor.swift */; settings = {ASSET_TAGS = (); }; };
+		375B7AE41BAB9714000DA0EB /* LogColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B7AE21BAB9714000DA0EB /* LogColor.swift */; settings = {ASSET_TAGS = (); }; };
+		375B7AE51BAB9714000DA0EB /* LogColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B7AE21BAB9714000DA0EB /* LogColor.swift */; settings = {ASSET_TAGS = (); }; };
+		375B7AE61BAB9714000DA0EB /* LogColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B7AE21BAB9714000DA0EB /* LogColor.swift */; settings = {ASSET_TAGS = (); }; };
+		375B7AE71BAB9714000DA0EB /* LogColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B7AE21BAB9714000DA0EB /* LogColor.swift */; settings = {ASSET_TAGS = (); }; };
+		375B7AE81BAB9714000DA0EB /* LogColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B7AE21BAB9714000DA0EB /* LogColor.swift */; settings = {ASSET_TAGS = (); }; };
+		375B7AE91BAB9714000DA0EB /* LogColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B7AE21BAB9714000DA0EB /* LogColor.swift */; settings = {ASSET_TAGS = (); }; };
 		3B00E5681BA3782D0011486D /* CleanroomLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B00E55D1BA3782D0011486D /* CleanroomLogger.framework */; };
 		3B00E5861BA379830011486D /* CleanroomLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B00E57C1BA379830011486D /* CleanroomLogger.framework */; };
 		3B00E5A41BA37A420011486D /* CleanroomLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B00E59A1BA37A420011486D /* CleanroomLogger.framework */; };
@@ -181,6 +188,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		375B7AE21BAB9714000DA0EB /* LogColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogColor.swift; sourceTree = "<group>"; };
 		3B00E4D01BA36B840011486D /* Info-Framework.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Framework.plist"; sourceTree = "<group>"; };
 		3B00E4D11BA36B840011486D /* Info-Tests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Tests.plist"; sourceTree = "<group>"; };
 		3B00E55D1BA3782D0011486D /* CleanroomLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CleanroomLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -387,6 +395,7 @@
 				3BACABB41BA9BB6B009E7A3E /* DefaultLogConfiguration.swift */,
 				3BACABB51BA9BB6B009E7A3E /* DefaultLogFormatter.swift */,
 				3BACABB61BA9BB6B009E7A3E /* FileLogRecorder.swift */,
+				375B7AE21BAB9714000DA0EB /* LogColor.swift */,
 				3BACABB71BA9BB6B009E7A3E /* LogRecorderBase.swift */,
 			);
 			path = Implementation;
@@ -754,6 +763,7 @@
 				3BACABD61BA9BB6B009E7A3E /* LogRecorderBase.swift in Sources */,
 				3BACABC21BA9BB6B009E7A3E /* ASLLogRecorder.swift in Sources */,
 				3BACABE61BA9BB6B009E7A3E /* LogEntry.swift in Sources */,
+				375B7AE31BAB9714000DA0EB /* LogColor.swift in Sources */,
 				3BACABDE1BA9BB6B009E7A3E /* LogChannel.swift in Sources */,
 				3BACABF61BA9BB6B009E7A3E /* LogRecorder.swift in Sources */,
 				3BACABF21BA9BB6B009E7A3E /* LogReceptacle.swift in Sources */,
@@ -766,6 +776,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				375B7AE71BAB9714000DA0EB /* LogColor.swift in Sources */,
 				3BACAC041BA9BB88009E7A3E /* LogSeverityTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -784,6 +795,7 @@
 				3BACABD71BA9BB6B009E7A3E /* LogRecorderBase.swift in Sources */,
 				3BACABC31BA9BB6B009E7A3E /* ASLLogRecorder.swift in Sources */,
 				3BACABE71BA9BB6B009E7A3E /* LogEntry.swift in Sources */,
+				375B7AE41BAB9714000DA0EB /* LogColor.swift in Sources */,
 				3BACABDF1BA9BB6B009E7A3E /* LogChannel.swift in Sources */,
 				3BACABF71BA9BB6B009E7A3E /* LogRecorder.swift in Sources */,
 				3BACABF31BA9BB6B009E7A3E /* LogReceptacle.swift in Sources */,
@@ -796,6 +808,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				375B7AE81BAB9714000DA0EB /* LogColor.swift in Sources */,
 				3BACAC051BA9BB88009E7A3E /* LogSeverityTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -814,6 +827,7 @@
 				3BACABD81BA9BB6B009E7A3E /* LogRecorderBase.swift in Sources */,
 				3BACABC41BA9BB6B009E7A3E /* ASLLogRecorder.swift in Sources */,
 				3BACABE81BA9BB6B009E7A3E /* LogEntry.swift in Sources */,
+				375B7AE51BAB9714000DA0EB /* LogColor.swift in Sources */,
 				3BACABE01BA9BB6B009E7A3E /* LogChannel.swift in Sources */,
 				3BACABF81BA9BB6B009E7A3E /* LogRecorder.swift in Sources */,
 				3BACABF41BA9BB6B009E7A3E /* LogReceptacle.swift in Sources */,
@@ -826,6 +840,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				375B7AE91BAB9714000DA0EB /* LogColor.swift in Sources */,
 				3BACAC061BA9BB88009E7A3E /* LogSeverityTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -844,6 +859,7 @@
 				3BACABD91BA9BB6B009E7A3E /* LogRecorderBase.swift in Sources */,
 				3BACABC51BA9BB6B009E7A3E /* ASLLogRecorder.swift in Sources */,
 				3BACABE91BA9BB6B009E7A3E /* LogEntry.swift in Sources */,
+				375B7AE61BAB9714000DA0EB /* LogColor.swift in Sources */,
 				3BACABE11BA9BB6B009E7A3E /* LogChannel.swift in Sources */,
 				3BACABF91BA9BB6B009E7A3E /* LogRecorder.swift in Sources */,
 				3BACABF51BA9BB6B009E7A3E /* LogReceptacle.swift in Sources */,
